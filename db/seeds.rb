@@ -43,7 +43,7 @@ Hairstyle.create(
   price: 35,
   duration: 30,
   description: "Be different with this haircut. \"Everyone's just walking around like a bunch of conformists, they're all zombies racing to their graves.\" -Michael (South Park)",  picture: "./extracoolgothkid.jpg",
-  soundclip: ""
+  soundclip: "./southparksound.mp3"
 )
 Hairstyle.create(
   name: "Cobra Kai",
