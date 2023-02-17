@@ -4,7 +4,7 @@ class CreateAppointments < ActiveRecord::Migration[6.1]
       t.integer :client_id
       t.integer :barber_id
       t.integer :hairstyle_id
-      t.datetime :datetime
+      t.string :datetime
 
     end
     

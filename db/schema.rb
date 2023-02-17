@@ -16,11 +16,12 @@ ActiveRecord::Schema.define(version: 2023_02_14_165545) do
     t.integer "client_id"
     t.integer "barber_id"
     t.integer "hairstyle_id"
-    t.datetime "datetime"
+    t.string "datetime"
   end
 
   create_table "barbers", force: :cascade do |t|
     t.string "name"
+    t.string "picture"
   end
 
   create_table "clients", force: :cascade do |t|
